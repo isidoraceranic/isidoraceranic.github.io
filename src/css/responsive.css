@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+
+    .nav,
+    .end {
+        justify-content: center !important;
+    }
+
+    .nav-bar-menu ul {
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        max-width: 250px;
+    }
+
+    .nav-bar-menu {
+        padding-right: 20px;
+    }
+
+    .nav-bar-menu ul li a.nav-bar-menu-btn {
+        display: block;
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+    .slide-content {
+        top: 10px;
+        width: 100%;
+    }
+
+    .slider-section {
+        max-height: 600px;
+    }
+
+    .slide-content h1 {
+        font-size: 50px;
+    }
+
+    .three-box-section-content {
+        padding: 20px 45px;
+    }
+
+    .mission-box,
+    .campaigns-left {
+        padding-bottom: 15px;
+    }
+
+    section.counter,
+    footer.main-footer {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .counter-content {
+        padding-top: 50px;
+    }
+
+    .copyright,
+    ul.footer-menu {
+        text-align: center;
+        padding-left: 0;
+    }
+}
